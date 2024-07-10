@@ -1,0 +1,96 @@
+
+
+.Register-page{
+    display: flex;
+    height: auto;
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+    margin-top: 7%;
+    border-radius: 30px;
+    padding: 10px;
+}
+.Register-page h1{
+    color: white;
+}
+.Register-page .Register-img img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  margin-right:30px;
+  margin-top: 120px;
+}
+ .REgister-text p{
+    color: white;
+    margin-bottom: 3px;
+}
+.REgister-text p .fa-solid{
+    margin-right: 10px;
+}
+.REgister-text input {
+    width: 90%;
+    margin-bottom:5px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+}
+.REgister-text input[type='submit'] {
+    background: red;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    height: 40px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.REgister-text input[type='submit']:hover {
+    background: rgb(196, 239, 110);
+    color: black;
+}
+ .REgister-text a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.REgister-text a:hover{
+    color: rgb(0, 17, 128);
+}
+@media only screen and (max-width:1025px){
+    .Register-page{
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 10%;
+    }
+}
+@media only screen and (max-width:800px){
+
+    .Register-page{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 15%;
+    }
+}
+@media only screen and (max-width:500px){
+    .Register-page{
+        width: 80%;
+        margin-top: 120px;
+        margin-bottom: 20px;
+    }
+    .REgister-text input {
+        width: 90%;   
+    }
+    .Register-page .Register-img img{
+        display: none;
+    }
+}
